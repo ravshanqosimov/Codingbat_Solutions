@@ -5,6 +5,14 @@ xyzMiddle("AAxyzBB") → true
 xyzMiddle("AxyzBB") → true
 xyzMiddle("AxyzBBB") → false
 */
+//method. 1
+// public boolean xyzMiddle(String str) {
+//   int i=str.indexOf("xyz",(str.length()/2)-2);
+//   int right=str.length()-3-i;
+//  return  str.length()>=3&&(i==right||Math.abs(i-right)==1);
+// }
+
+
 public boolean xyzMiddle(String str) {
     String xyz = "xyz";
   int len = str.length();
