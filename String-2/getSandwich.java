@@ -5,6 +5,12 @@ getSandwich("breadjambread") → "jam"
 getSandwich("xxbreadjambreadyy") → "jam"
 getSandwich("xxbreadyy") → ""
 */
+// method. 1
+// public String getSandwich(String str) {
+// int l=str.indexOf("bread");
+// int r=str.lastIndexOf("bread");  
+//     return (l!=r)?str.substring(l+5,r):"";
+// }
 public String getSandwich(String str) {
   int f = -1;
   int l = -1;
