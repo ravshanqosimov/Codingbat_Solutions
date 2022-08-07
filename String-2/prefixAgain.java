@@ -14,3 +14,8 @@ public boolean prefixAgain(String str, int n) {
   }
   return false;
 }
+// Method. 2
+// public boolean prefixAgain(String str, int n) {
+//   String str1=str.substring(0,n);
+//   return str.lastIndexOf(str1)!=0;
+// }
